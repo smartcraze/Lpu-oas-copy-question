@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <title>Your Chrome Extension Navbar</title>
+    <title>Navbar for Chrome Extension</title>
     <style>
-        /* Your CSS styles */
+       
         body {
             height: 300px; 
             width: 300px;
@@ -24,11 +24,13 @@
             padding: 10px 20px;
         }
 
+        
         .left-text {
             font-weight: bold;
             font-size: 17px;
         }
 
+       
         .right-icons {
             display: flex;
             align-items: center;
@@ -52,6 +54,7 @@
             color: rgb(227, 227, 227);
         }
 
+      
         .instructions {
             margin-top: 20px;
             text-align: center;
@@ -61,26 +64,30 @@
 </head>
 <body>
     <div class="navbar">
-        <div class="left-text">OAS LPU COPY PASTE</div>
-        
+        <div class="left-text">OAS LPU</div>
+        <div class="right-icons">
+            <div id="github"><i class="fab fa-github"></i></div>
+            <div id="tele"><i class="fab fa-telegram"></i></div>
+            <div id="youtube"><i class="fab fa-youtube"></i></div> 
+            <div id="insta"><i class="fab fa-instagram"></i></div>
+        </div>
     </div>
 
-    
+    <!-- Instructions Read Carefully-->
     <div class="instructions">
-        <!-- Customize these instructions with your own -->
         <h3>To use this Chrome extension:</h3>
-        
+        <P id="demo"> Watch Tutorial <i class="fab fa-youtube"></i></P>
         <ol>
-            <li>Customize the extension with your details.</li>
             <li>Install the extension by downloading it from the Chrome Web Store.</li>
             <li>Go to chrome://extensions and upload Extension File</li>
-            <li>Pin the Extension and Login with your details </li>
-            <li>Double click on a question No. to copy it (Flagged questions won't copy).</li>
+            <li>Pin the Extension and Login with Oas LPU Open Test </li>
+            <li>when you double click on a question No., it gets copied </li>
+            <li>If you put flag on any question they get not copy</li>
         </ol>
-        <center><b>@Developed By Suraj Vishwakarma&nbsp; &nbsp; </b></center>
+        <center><b>@Developed By Ayushman&nbsp; &nbsp; 4/7/24</b></center>
         <br>
     </div>
 
-
+    <script src="./popup.js"></script>
 </body>
 </html>

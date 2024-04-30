@@ -5,7 +5,7 @@
     "description": "If I click on any question, the question will be automatically copied; there is no need to manually copy the text.",
     "permissions": ["clipboardWrite", "activeTab"],
     "background": {
-        
+        "service_worker": "./background.js"
     },
     "content_scripts": [
         {

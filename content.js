@@ -14,7 +14,7 @@ document.addEventListener("click", (event) => {
             navigator.clipboard.writeText(
                 questionText + "\n\n" + formattedOptions + "\n\nPlease provide the correct options No need Explaination."
             ).then(() => {
-                console.log("enjoy guys get full marks")
+                console.log("Developer By Ayushman Medcalia , Follow me on telegram https://t.me/helpinghandlpu , follow me on Github https://github.com/ayushman542 , Follow me on linkedin https://www.linkedin.com/in/ayushman-medcalia-4a0908252/ ");
             }).catch((error) => {
                 console.error("Could not copy to clipboard:", error);
             });
@@ -23,3 +23,5 @@ document.addEventListener("click", (event) => {
         }
     }
 });
+console.log("Developer By Ayushman Medcalia , Follow me on telegram https://t.me/helpinghandlpu , follow me on Github https://github.com/ayushman542 , Follow me on linkedin https://www.linkedin.com/in/ayushman-medcalia-4a0908252/ ");
+
